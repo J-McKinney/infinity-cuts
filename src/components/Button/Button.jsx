@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./Button.module.css";
+import Style from "./Button.module.css";
 
 function Button(props) {
   return (
     <>
-      <div className={style.wrapper}></div>
+      <div className={Style.wrapper}></div>
     </>
   );
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./Jumbotron.module.css";
+import Style from "./Jumbotron.module.css";
 
 function Jumbotron(props) {
   return (
     <>
-      <div className={style.wrapper}></div>
+      <div className={Style.wrapper}></div>
     </>
   );
 }

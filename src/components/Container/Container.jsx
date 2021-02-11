@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./Container.module.css";
+import Style from "./Container.module.css";
 
 function Container(props) {
   return (
     <>
-      <div className={style.wrapper}></div>
+      <div className={Style.wrapper}></div>
     </>
   );
 }
