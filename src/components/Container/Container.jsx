@@ -4,7 +4,7 @@ import style from "./Container.module.css";
 function Container(props) {
   return (
     <>
-      <div></div>
+      <div className={style.wrapper}></div>
     </>
   );
 }

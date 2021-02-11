@@ -1,7 +1,7 @@
 import React from "react";
-import style from "./Wrapper.module.css";
+import style from "./Modal.module.css";
 
-function Wrapper(props) {
+function Modal(props) {
   return (
     <>
       <div className={style.wrapper}></div>
@@ -9,4 +9,4 @@ function Wrapper(props) {
   );
 }
 
-export default Wrapper;
+export default Modal;

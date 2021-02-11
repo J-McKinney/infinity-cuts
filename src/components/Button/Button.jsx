@@ -4,7 +4,7 @@ import style from "./Button.module.css";
 function Button(props) {
   return (
     <>
-      <div></div>
+      <div className={style.wrapper}></div>
     </>
   );
 }

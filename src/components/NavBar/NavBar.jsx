@@ -5,9 +5,7 @@ import style from "./NavBar.module.css";
 function NavBar(props) {
   return (
     <>
-      <div className={style.wrapper}>
-        <div className={style.directory}></div>
-      </div>
+      <div className={style.wrapper}></div>
     </>
   );
 }

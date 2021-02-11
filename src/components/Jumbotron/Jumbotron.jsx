@@ -4,7 +4,7 @@ import style from "./Jumbotron.module.css";
 function Jumbotron(props) {
   return (
     <>
-      <div></div>
+      <div className={style.wrapper}></div>
     </>
   );
 }
