@@ -1,7 +1,7 @@
 .wrapper {
   padding: 37px 0px 20px 0px;
   background-color: #232323;
-  width: auto;
+  /* width: auto; */
 }
 
 .h1 {
@@ -18,24 +18,24 @@
 
 .topRow {
   /* This will need to be taken out */
-  padding: 50px;
+  /* padding: 50px; */
   background-color: #ff0000;
   /* This will need to be taken out */
   width: auto;
 }
 
-#leftCol {
+#topLeftCol {
   /* This will need to be taken out */
-  background-color: #00ff0d;
+  /* padding: 50px; */
+  background-color: #33ff00;
   /* This will need to be taken out */
-  width: auto;
-  float: inline-start;
+  width: 50%;
 }
 
-#rightCol {
+#topRightCol {
   /* This will need to be taken out */
-  background-color: #002fff;
+  /* padding: 50px; */
+  background-color: #f700ff;
   /* This will need to be taken out */
-  width: auto;
-  float: inline-start;
+  width: 50%;
 }

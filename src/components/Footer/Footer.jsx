@@ -9,9 +9,21 @@ function Footer(props) {
     <>
       <div className={Style.wrapper}>
         <Jumbotron>
-          <Row>
-            <Col className="col-sm-6">Hello</Col>
-            <Col className="col-sm-6">World</Col>
+          <Row className={Style.topRow}>
+            <Col id={Style.topLeftCol} className="col-lg-6">
+              <Row className={Style.upperLeftRow}>
+                <Col className="col-sm-12" id={Style.leftCol}>
+                  <h5>Hello</h5>
+                </Col>
+              </Row>
+            </Col>
+            <Col id={Style.topRightCol} className="col-lg-6">
+              <Row className={Style.upperRightRow}>
+                <Col className="col-sm-12" id={Style.rightCol}>
+                  <h5>World</h5>
+                </Col>
+              </Row>
+            </Col>
           </Row>
         </Jumbotron>
       </div>
