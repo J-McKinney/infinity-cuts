@@ -21,4 +21,21 @@
   padding: 50px;
   background-color: #ff0000;
   /* This will need to be taken out */
+  width: auto;
+}
+
+#leftCol {
+  /* This will need to be taken out */
+  background-color: #00ff0d;
+  /* This will need to be taken out */
+  width: auto;
+  float: inline-start;
+}
+
+#rightCol {
+  /* This will need to be taken out */
+  background-color: #002fff;
+  /* This will need to be taken out */
+  width: auto;
+  float: inline-start;
 }
