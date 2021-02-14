@@ -1,41 +1,10 @@
 .wrapper {
-  padding: 37px 0px 20px 0px;
   background-color: #232323;
-  /* width: auto; */
+  display: flex;
+  flex-direction: column;
 }
 
-.h1 {
-  color: #ffffff;
-}
-
-.topContainer {
-  /* This will need to be taken out */
-  padding: 50px;
-  background-color: aqua;
-  /* This will need to be taken out */
-  width: auto;
-}
-
-.topRow {
-  /* This will need to be taken out */
-  /* padding: 50px; */
-  background-color: #ff0000;
-  /* This will need to be taken out */
-  width: auto;
-}
-
-#topLeftCol {
-  /* This will need to be taken out */
-  /* padding: 50px; */
-  background-color: #33ff00;
-  /* This will need to be taken out */
-  width: 50%;
-}
-
-#topRightCol {
-  /* This will need to be taken out */
-  /* padding: 50px; */
-  background-color: #f700ff;
-  /* This will need to be taken out */
-  width: 50%;
+.content {
+  color: antiquewhite;
+  text-align: center;
 }
