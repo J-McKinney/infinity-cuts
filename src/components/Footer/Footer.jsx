@@ -15,21 +15,21 @@ function Footer(props) {
               <Col id={Style.ColOne} className="col-md-7">
                 <Row id="leftRow" className={Style.leftRow}>
                   <Col id="firstLeftCol" className={Style.firstLeftCol}>
-                    <h5 id="h5" className={Style.content}>
+                    <h3 id="h3" className={Style.content}>
                       Hello
-                    </h5>
+                    </h3>
                   </Col>
                   <Col id="secondLeftCol" className={Style.secondLeftCol}>
-                    <h5 id="h5" className={Style.content}>
+                    <h3 id="h3" className={Style.content}>
                       World
-                    </h5>
+                    </h3>
                   </Col>
                 </Row>
               </Col>
               <Col id={Style.ColTwo} className="col-md-5">
-                <h5 id="h5" className={Style.content}>
+                <h3 id="h3" className={Style.content}>
                   HelloWorld
-                </h5>
+                </h3>
               </Col>
             </Row>
           </Container>
