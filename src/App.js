@@ -8,11 +8,7 @@ import BlogPage from "./pages/BlogPage";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
-require("dotenv").config();
 
-function key() {
-  console.log("env: " + process.env.REACT_APP_API_KEY);
-}
 function App() {
   return (
     <Router>
@@ -30,6 +26,5 @@ function App() {
     </Router>
   );
 }
-key();
 
 export default App;
