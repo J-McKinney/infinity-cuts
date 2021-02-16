@@ -1,14 +1,30 @@
 .wrapper {
+  position: sticky;
+  margin: 100px 0;
   background-color: #232323;
   display: flex;
   flex-direction: column;
 }
 
-.content {
+.firstColContent,
+.secondColContent,
+.thirdColContent {
   color: #fff;
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-weight: 700;
-  padding-bottom: 12px;
+  padding: 16px 0;
+}
+
+.searchLink,
+.contactLink,
+.wishListLink,
+.privacyPolicyLink,
+.refundPolicyLink,
+.termsOfServiceLink {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 30px;
 }
