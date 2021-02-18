@@ -28,3 +28,17 @@
   text-decoration: none;
   line-height: 30px;
 }
+
+.socialIcons {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+#facebookIcon,
+#twitterIcon,
+#instagramIcon,
+#pinterestIcon,
+#snapchatIcon,
+#googleIcon {
+  padding-right: 20px;
+}

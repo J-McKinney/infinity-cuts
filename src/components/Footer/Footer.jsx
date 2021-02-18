@@ -13,12 +13,10 @@ function Footer(props) {
           <Container className={Style.Container}>
             <Row className={Style.Row}>
               <Col id={Style.ColOne} className="col-md-7">
-                <Row id="leftRow" className={Style.leftRow}>
-                  <Col id="firstLeftCol" className={Style.firstLeftCol}>
+                <Row className={Style.leftRow}>
+                  <Col className={Style.firstLeftCol}>
                     <ul>
-                      <h3 id="h3" className={Style.firstColContent}>
-                        Shop
-                      </h3>
+                      <h3 className={Style.firstColContent}>Shop</h3>
                       <li>
                         <a
                           href="/search"
@@ -48,11 +46,9 @@ function Footer(props) {
                       </li>
                     </ul>
                   </Col>
-                  <Col id="secondLeftCol" className={Style.secondLeftCol}>
+                  <Col className={Style.secondLeftCol}>
                     <ul>
-                      <h3 id="h3" className={Style.secondColContent}>
-                        Information
-                      </h3>
+                      <h3 className={Style.secondColContent}>Information</h3>
                       <li>
                         <a
                           href="/pages/PrivacyPolicyPage"
@@ -85,9 +81,47 @@ function Footer(props) {
                 </Row>
               </Col>
               <Col id={Style.ColTwo} className="col-md-5">
-                <h3 id="h3" className={Style.thirdColContent}>
-                  Stay Connected
-                </h3>
+                <ul>
+                  <h3 className={Style.thirdColContent}>Stay Connected</h3>
+                  <li>
+                    <Row>
+                      <span className={Style.socialIcons}>
+                        <i
+                          id={Style.facebookIcon}
+                          className="fab fa-facebook-f"
+                        ></i>
+                        <i
+                          id={Style.twitterIcon}
+                          className="fab fa-twitter"
+                        ></i>
+                        <i
+                          id={Style.googleIcon}
+                          className="fab fa-google-plus-g"
+                        ></i>
+                        <i
+                          id={Style.instagramIcon}
+                          className="fab fa-instagram"
+                        ></i>
+                        <i
+                          id={Style.pinterestIcon}
+                          className="fab fa-pinterest-p"
+                        ></i>
+                        <i
+                          id={Style.snapchatIcon}
+                          className="fab fa-snapchat-ghost"
+                        ></i>
+                      </span>
+                    </Row>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+            <Row className={Style.newsLetterRow}>
+              <Col id={Style.freeSpace} className="col-md-7">
+                <h4>Hello</h4>
+              </Col>
+              <Col id={Style.newsLetterSignUp} className="col-md-5">
+                <h4>World</h4>
               </Col>
             </Row>
           </Container>
