@@ -116,14 +116,6 @@ function Footer(props) {
                 </ul>
               </Col>
             </Row>
-            <Row className={Style.newsLetterRow}>
-              <Col id={Style.freeSpace} className="col-md-7">
-                <h4>Hello</h4>
-              </Col>
-              <Col id={Style.newsLetterSignUp} className="col-md-5">
-                <h4>World</h4>
-              </Col>
-            </Row>
           </Container>
         </Jumbotron>
       </div>
